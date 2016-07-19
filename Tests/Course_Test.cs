@@ -17,6 +17,7 @@ namespace University
     public void Dispose()
     {
        Course.DeleteAll();
+       Student.DeleteAll();
     }
 
     [Fact]
